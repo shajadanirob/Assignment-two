@@ -322,7 +322,7 @@ nav>a {
 .button-content {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 50px;
+    gap: 10px;
 }
 
 .button-cart {
@@ -496,9 +496,20 @@ small p{
     /* start button */
 
     .button-content {
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(3, 1fr);
+       padding-right: 40px;
+       margin-right: 100px; 
     }
-    
+    .button-cart{
+        font-size: 5px;
+    }
+    .button-cart img{
+        width: 70%;
+        
+    }
+    .button-section{
+        width: 50%;
+    }
     /* end button */
     /* start footer */
     .footer {

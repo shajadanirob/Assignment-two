@@ -412,6 +412,12 @@ nav>a {
 .icon a{
     text-decoration: none;
     color:white;
+
+}
+.icon{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 5px;
 }
 .footer-des2{
     display: grid;
@@ -530,7 +536,8 @@ small p{
         align-items: center;
     }
  .icon{
-    flex-direction: row;
+    grid-template-columns: repeat(3,1fr);
+    text-align: center;
  }
  small p{
     padding: 30px; 

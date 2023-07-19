@@ -22,7 +22,7 @@ nav {
 }
 
 header {
-    /* padding: 20px 100px; */
+    
     margin: 0 auto;
 }
 
@@ -406,8 +406,15 @@ nav>a {
     gap: 20px;
 }
 .footer-des a{
-    color: #fff;
+    color:white;
     text-decoration: none;
+}
+.icon a{
+    text-decoration: none;
+    color:white;
+}
+small p{
+    color: #534C64;
 }
 /* media query */
 /* mobile device */

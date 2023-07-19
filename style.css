@@ -302,7 +302,7 @@ nav>a {
 
 .play-game-img2 {
     padding: 40px;
-    width: 300px;
+    height: 100px;
     position: relative;
     bottom: 300px;
     right: 200px;
@@ -394,8 +394,9 @@ nav>a {
     color: #fff;
 }
 .icon{
-    gap:20px;
-    padding: 20px;
+    gap:50px;
+   padding: 50px;
+   margin: 10px;
 }
 /* end footer */
 /* media query */
@@ -448,7 +449,7 @@ nav>a {
     } */
 
     .play-game-img1 {
-        width: 300px;
+        width: 200px;
         height: 550px;
 
 
@@ -457,6 +458,7 @@ nav>a {
     .play-game-img2 {
         width: 80px;
         height: 165;
+        
     }
 
     /* end play game */
@@ -468,7 +470,9 @@ nav>a {
 
     /* end button */
     /* start footer */
- 
+    .footer{
+        height: 100vh;
+    }
     .footer-des{
         flex-direction: column;
         gap: 10px;

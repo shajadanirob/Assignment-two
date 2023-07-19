@@ -397,7 +397,7 @@ nav>a {
     align-items: center;
     margin-top: 45px;
 }
-
+/* 
 .footer-des {
     display: flex;
     gap: 30px;
@@ -431,9 +431,9 @@ nav>a {
     justify-content: center;
     display: flex;
 }
+ */
 
 
-/* 
 .footer {
     margin-top: 120px;
     width: 100%;
@@ -492,7 +492,7 @@ nav>a {
     gap:50px;
    padding: 50px;
    margin: 10px;
-} */
+} 
 /* end footer */
 /* media query */
 /* mobile device */

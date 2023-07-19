@@ -506,6 +506,10 @@ small p{
  .icon{
     flex-direction: row;
  }
+ small p{
+    /* padding: 30px; */
+    text-align: center;
+ }
     /* end footer */
 }
 

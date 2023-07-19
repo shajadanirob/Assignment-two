@@ -413,6 +413,15 @@ nav>a {
     text-decoration: none;
     color:white;
 }
+.footer-des2{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+.footer-des2 a{
+    color: #534C64;
+    text-decoration: none;
+}
 small p{
     color: #534C64;
 }
@@ -503,11 +512,17 @@ small p{
         gap: 5px;
         align-items: center;
     }
+    .footer-des2{
+        grid-template-columns: repeat(2,1fr);
+        font-size: 15px;
+        gap: 25px;
+        align-items: center;
+    }
  .icon{
     flex-direction: row;
  }
  small p{
-    /* padding: 30px; */
+    padding: 30px; 
     text-align: center;
  }
     /* end footer */

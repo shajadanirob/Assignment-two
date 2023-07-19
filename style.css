@@ -18,6 +18,7 @@ nav {
     justify-content: space-around;
     background-color: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    margin: 0 auto;
 
 }
 
@@ -449,7 +450,7 @@ nav>a {
     } */
 
     .play-game-img1 {
-        width: 200px;
+        width: 300px;
         height: 550px;
 
 
@@ -471,7 +472,7 @@ nav>a {
     /* end button */
     /* start footer */
     .footer{
-        height: 120vh;
+        height: 150vh;
     }
     .footer-des{
         flex-direction: column;

@@ -471,7 +471,7 @@ nav>a {
     /* end button */
     /* start footer */
     .footer{
-        height: 100vh;
+        height: 120vh;
     }
     .footer-des{
         flex-direction: column;

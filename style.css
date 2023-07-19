@@ -89,12 +89,14 @@ nav>a {
     gap: 300px;
     margin-top: 120px;
 }
-.banner-title{
+
+.banner-title {
     background-image: url(images/Group\ 14.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
+
 .banner-img {
     width: 500px;
 }
@@ -111,8 +113,12 @@ nav>a {
     font-size: 70px;
     font-style: normal;
     font-weight: 800;
-   color: #ff42a5 
-   
+    /* color: #ff42a5  */
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
 }
 
 .banner-des {
@@ -138,7 +144,128 @@ nav>a {
 }
 
 /* end banner section */
+/* start play game section */
+.game-section {
+    margin-top: 120px;
+}
 
+.game-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 20px;
+
+}
+
+.name2 {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.game-des {
+    color: #534C64;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.game-header {
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.game-img1 {
+    background-image: url(images/Rectangle\ 4.png);
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 300px;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+}
+
+.game-img2 {
+    background-image: url(images/Rectangle\ 5.png);
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 300px;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+}
+
+.game-img3 {
+    background-image: url(images/Rectangle\ 7.png);
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 300px;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+}
+
+.game-img4 {
+    background-image: url(images/Rectangle\ 6.png);
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 300px;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+
+}
+
+.game-title {
+    text-align: center;
+    padding-top: 100px;
+    display: none;
+    width: 250px;
+    height: 200px;
+    border-radius: 16px;
+
+}
+
+.game-img1:hover .game-title {
+    display: block;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.60)100%);
+    color: #F948B2;
+    border: 2px solid #F948B2;
+}
+
+.game-img2:hover .game-title {
+    display: block;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.60)100%);
+    color: #F948B2;
+    border: 2px solid #F948B2;
+}
+
+.game-img3:hover .game-title {
+    display: block;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.60)100%);
+    color: #F948B2;
+    border: 2px solid #F948B2;
+}
+
+.game-img4:hover .game-title {
+    display: block;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.60)100%);
+    color: #F948B2;
+    border: 2px solid #F948B2;
+}
+
+.p{
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-top: 300px;
+    text-align: center;
+}
+
+/* end play game section */
 
 /* media query */
 /* mobile device */
@@ -158,13 +285,30 @@ nav>a {
     }
 
     /* start banner */
- .banner{
-    flex-direction: column-reverse;
-    gap: 100px;
-    padding: 30px;
- }
-.banner-img{
-    width: 300px;
-}
+    .banner {
+        flex-direction: column-reverse;
+        gap: 100px;
+        padding: 30px;
+    }
+
+    .banner-img {
+        width: 300px;
+    }
+
     /* end banner */
+    /* start game section */
+    .game-container {
+        grid-template-columns: repeat(1, 1fr);
+        padding-left: 50px;
+        gap: 120px;
+    }
+
+    /* end game secton */
+}
+
+/* medium device */
+@media screen and (min-width:570px)and(max-width:990px) {
+    .game-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
